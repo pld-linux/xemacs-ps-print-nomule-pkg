@@ -2,7 +2,7 @@ Summary:	Old, but no-Mule safe ps-print
 Summary(pl):	Old, but no-Mule safe ps-print
 Name:		xemacs-ps-print-nomule-pkg
 %define 	srcname	ps-print-nomule
-Version:	1.04
+Version:	1.05
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
