@@ -17,7 +17,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Old, but no-Mule safe ps-print.
 
-%description -l pl 
+%description -l pl
 Stary, ale bezpieczny bez Mule ps-print.
 
 %prep
@@ -29,7 +29,7 @@ install -d $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 
 cp -a * $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 
-gzip -9nf lisp/ps-print-nomule/ChangeLog 
+gzip -9nf lisp/ps-print-nomule/ChangeLog
 
 %clean
 rm -fr $RPM_BUILD_ROOT
