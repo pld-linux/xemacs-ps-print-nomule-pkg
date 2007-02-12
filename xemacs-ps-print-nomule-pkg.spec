@@ -1,5 +1,5 @@
 Summary:	Old, but no-Mule safe ps-print
-Summary(pl):	Stary, ale bezpieczny bez Mule ps-print
+Summary(pl.UTF-8):   Stary, ale bezpieczny bez Mule ps-print
 Name:		xemacs-ps-print-nomule-pkg
 %define 	srcname	ps-print-nomule
 Version:	1.05
@@ -18,7 +18,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Old, but no-Mule safe ps-print.
 
-%description -l pl
+%description -l pl.UTF-8
 Stary, ale bezpieczny bez Mule ps-print.
 
 %prep
