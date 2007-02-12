@@ -1,5 +1,5 @@
 Summary:	Old, but no-Mule safe ps-print
-Summary(pl.UTF-8):   Stary, ale bezpieczny bez Mule ps-print
+Summary(pl.UTF-8):	Stary, ale bezpieczny bez Mule ps-print
 Name:		xemacs-ps-print-nomule-pkg
 %define 	srcname	ps-print-nomule
 Version:	1.05
