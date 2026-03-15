@@ -3,12 +3,12 @@ Summary(pl.UTF-8):	Stary, ale bezpieczny bez Mule ps-print
 Name:		xemacs-ps-print-nomule-pkg
 %define 	srcname	ps-print-nomule
 Version:	1.05
-Release:	3
+Release:	4
 License:	GPL
 Group:		Applications/Editors/Emacs
-Source0:	http://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
+Source0:	http://ftp.xemacs.org/pub/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
 # Source0-md5:	c071d71ac89d9a540c0799fb33f40c3a
-URL:		http://www.xemacs.org/
+URL:		https://www.xemacs.org/
 BuildArch:	noarch
 Conflicts:	xemacs-sumo
 Requires:	xemacs
